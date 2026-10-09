@@ -98,6 +98,37 @@
     display: none !important;
   }
 
+  /* Keep the resume text in a predictable, single-column reading order. */
+  .strip,
+  .heading .line {
+    display: none !important;
+  }
+
+  .layout,
+  .role,
+  .school,
+  .community,
+  .community .item {
+    display: block !important;
+  }
+
+  .when {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 0 8pt !important;
+  }
+
+  .role .what,
+  .school > div,
+  .community .body {
+    display: block !important;
+  }
+
+  .groups {
+    display: block !important;
+    columns: auto !important;
+  }
+
   .card {
     border-color: var(--border);
     box-shadow: none;

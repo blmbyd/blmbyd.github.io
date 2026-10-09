@@ -94,6 +94,11 @@ const siteLabel = siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '');
             {skills.top.map((skill) => <li>{skill}</li>)}
           </ul>
         </div>
+
+        <section class="core-skills" aria-labelledby="core-skills-title">
+          <h2 id="core-skills-title">Core competencies</h2>
+          <p>{skills.core.join(' · ')}</p>
+        </section>
       </div>
     </div>
   </div>
@@ -290,6 +295,10 @@ const siteLabel = siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '');
     background: var(--amber);
   }
 
+  .core-skills {
+    display: none;
+  }
+
   @media print {
     .hero {
       padding-block: 0 10pt;
@@ -321,6 +330,20 @@ const siteLabel = siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '');
 
     .top-skills {
       display: none;
+    }
+
+    .core-skills {
+      display: block;
+      margin-block-start: 6pt;
+    }
+
+    .core-skills h2 {
+      font-size: var(--step-1);
+    }
+
+    .core-skills p {
+      margin-block-start: 2pt;
+      color: var(--text-muted);
     }
   }
 </style>
