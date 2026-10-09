@@ -137,7 +137,8 @@
   }
 
   .earlier .note,
-  .interests-section {
+  .interests-section,
+  .courses {
     display: none !important;
   }
 
