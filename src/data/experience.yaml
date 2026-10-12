@@ -19,21 +19,20 @@ roles:
     scope: 10
     featured: true
     summary: >-
-      Technical pre-sales, solution architecture and migration delivery for enterprise
-      customers adopting GitHub, DevOps and AI-assisted development at scale.
+      Customer-facing solution architecture, technical pre-sales and migration delivery
+      for enterprise customers modernising software delivery with GitHub and DevOps.
     groups:
       - label: Technical pre-sales & customer advisory
         items:
           - Lead technical discovery with enterprise customers to surface the real
-            constraints in their software delivery, not just the stated ones.
-          - Translate business and engineering requirements into GitHub-based solution
-            architectures.
-          - Deliver executive briefings, technical workshops, proofs of concept and live
-            product demonstrations.
-          - text: Partner with account teams to define adoption strategies and technical
-              roadmaps.
-          - Support customers all the way through evaluation, implementation and
-            adoption — not just to signature.
+            constraints in their software delivery and understand their business goals.
+          - Translate business and engineering requirements into practical GitHub-based
+            solution architectures.
+          - Lead technical evaluations through executive briefings, workshops, proofs of
+            concept and live product demonstrations.
+          - Partner with account teams on solution strategy, adoption plans and technical
+            roadmaps.
+          - Support customers from evaluation through implementation and adoption.
       - label: Migrations to GitHub
         items:
           - Lead enterprise migrations onto GitHub end to end, from assessment and
@@ -46,7 +45,7 @@ roles:
             through cutover instead of pausing around it.
           - Run pilot waves and enablement so teams land on the new platform productive
             rather than stranded on it.
-      - label: GitHub & AI transformation
+      - label: Platform, DevOps & AI transformation
         items:
           - Advise organisations on GitHub Enterprise and GitHub Copilot adoption
             strategy.

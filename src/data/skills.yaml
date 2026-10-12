@@ -4,6 +4,6 @@
 # role instead, which keeps them tied to where they were actually used.
 
 top:
-  - GitHub Enterprise
   - Solution Architecture
   - Technical Pre-Sales
+  - DevOps & CI/CD

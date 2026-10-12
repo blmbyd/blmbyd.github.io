@@ -5,18 +5,19 @@ name: Paweł Stuczyński
 shortName: Paweł
 initials: PS
 
-headline: Principal DevOps Engineer & GitHub Solutions Architect
+headline: Solutions Architect | DevOps & Technical Pre-Sales
 
 roles:
+  - Solutions Architect
   - Principal DevOps Engineer
-  - GitHub Solutions Architect
   - Technical Pre-Sales
+  - DevSecOps Advisor
   - DevEx Advisor
   - Public Speaker
 
 tagline: >-
-  I help enterprise engineering organisations ship software faster, safer and with
-  far less friction — through GitHub, DevOps and AI-assisted development.
+  I help enterprise engineering organisations connect business goals with practical
+  solutions for software delivery, DevOps and developer experience.
 
 # Public page: city only, no street address, no phone, no date of birth.
 location:
@@ -43,18 +44,19 @@ summary:
   # A plain string prints. An entry written as "text: ..." stays on the web page
   # but is left out of the printed CV and the PDF.
   - >-
-    I help enterprise organisations modernise software delivery, improve developer
-    experience and accelerate engineering outcomes through GitHub, AI-assisted
-    development and DevOps transformation.
+    I help enterprise engineering organisations improve software delivery across the
+    development lifecycle, connecting business goals with practical DevOps, CI/CD,
+    security and developer-platform solutions.
   - >-
-    A large part of that is migration work. I lead enterprise moves onto GitHub end to
-    end — assessment, migration design, cutover and the adoption work afterwards that
-    decides whether the move actually holds.
+    In customer-facing architecture and technical pre-sales, I lead discovery, shape
+    solutions and deliver workshops, demonstrations and proofs of concept. I partner
+    with account teams from evaluation through implementation and adoption, translating
+    technical requirements into customer outcomes.
   - >-
-    My work sits where technology, business and customer success overlap: technical
-    leadership, solution architecture and consultative pre-sales, guiding organisations
-    from discovery and technical strategy through implementation, adoption and
-    measurable outcomes.
+    I also lead enterprise migrations to GitHub end to end — from assessment and
+    migration design through cutover and the adoption work that makes the change last.
+    My hands-on engineering background helps me connect architecture decisions to how
+    software is built, secured and delivered.
   - text: >-
       Most of my time goes to engineering leaders, architects and platform teams —
       understanding what actually slows them down, designing practical transformation
