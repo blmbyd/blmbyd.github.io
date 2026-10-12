@@ -128,6 +128,16 @@ generator uses.
 `.github/workflows/deploy.yml` runs on every push to `main`: build, render the PDF and OG
 image into `dist/`, then publish via GitHub Pages.
 
+### Generating PDF from any branch
+
+To build and download the PDF from any branch without deploying to GitHub Pages:
+
+1. Open the **Actions** tab on GitHub.
+2. Select the **Create PDF** workflow.
+3. Click **Run workflow**, select the branch (or specify it in the input), and run.
+4. Download the `cv-pdf` artifact containing `cv.pdf` from the workflow run summary.
+
+
 > **One-time setup:** in the repository settings, set **Pages → Build and deployment →
 > Source** to **GitHub Actions**. Until that is done the workflow will run but nothing
 > will publish.
