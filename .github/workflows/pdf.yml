@@ -1,0 +1,52 @@
+name: Create PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to generate PDF from (defaults to the selected branch)'
+        required: false
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  build-pdf:
+    name: Build and export PDF
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.branch != '' && inputs.branch || github.ref }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Validates every src/data/*.yaml file against its schema as a side effect.
+      - name: Build the site
+        run: npm run build
+
+      - name: Install Chromium for PDF rendering
+        run: npx playwright install --with-deps chromium
+
+      - name: Render cv.pdf
+        run: npm run pdf
+
+      - name: Check the PDF margins
+        run: npm run verify:pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: cv-pdf
+          path: dist/cv.pdf
+          if-no-files-found: error
