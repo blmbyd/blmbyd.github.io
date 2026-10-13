@@ -1,0 +1,1 @@
+Na stronie internetowej należy zawsze zachować pełną treść CV; wersja do druku i PDF musi mieścić się na maksymalnie 4 stronach A4. Treści, które mają być widoczne tylko na stronie, oznaczaj jako `screenOnly` albo używaj odpowiedniego formatu danych wykluczającego je z druku.
