@@ -176,13 +176,36 @@ import { education, languages, formatRange } from '../lib/cv';
 
   @media print {
     .layout {
-      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-      gap: 12pt;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 6pt;
     }
 
     .school {
-      grid-template-columns: 74pt minmax(0, 1fr);
-      gap: 1pt 9pt;
+      display: block;
+      padding-block: 3pt;
+    }
+
+    .school > .range {
+      display: inline;
+    }
+
+    .school > div {
+      display: contents;
+    }
+
+    .school h3,
+    .school .field,
+    .school .place {
+      display: inline;
+    }
+
+    .school h3::before {
+      content: ' | ';
+    }
+
+    .school .field,
+    .school .place {
+      margin-inline-start: 4pt;
     }
 
     .languages {

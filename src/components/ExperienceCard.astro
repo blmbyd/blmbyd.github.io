@@ -217,13 +217,36 @@ const isCurrent = role.end === null;
       /* Long roles may span a page break; their sub-blocks stay intact. */
       break-inside: auto;
       padding-block: 4pt;
-      gap: 1pt 9pt;
-      grid-template-columns: 74pt minmax(0, 1fr);
+      display: block;
       background: none !important;
       box-shadow: none !important;
     }
 
-    .when,
+    .when {
+      display: inline;
+    }
+
+    .range {
+      display: inline;
+    }
+
+    .range::after {
+      content: ' | ';
+    }
+
+    .what {
+      display: contents;
+    }
+
+    h3 {
+      display: inline;
+    }
+
+    .org {
+      display: inline;
+      margin-inline-start: 4pt;
+    }
+
     .tech {
       break-inside: avoid;
     }

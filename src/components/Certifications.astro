@@ -167,17 +167,15 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
 
   @media print {
     .layout {
-      grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
-      gap: 12pt;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 6pt;
     }
 
     .groups {
-      /* Chromium does not paginate multi-column containers gracefully, so the
-         print layout uses a plain grid instead. */
       columns: auto;
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 7pt 12pt;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 5pt;
       align-content: start;
     }
 
