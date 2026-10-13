@@ -71,16 +71,6 @@ export function monthsBetween(start: string, end: string | null): number {
   );
 }
 
-export function formatDuration(start: string, end: string | null): string {
-  const total = monthsBetween(start, end);
-  const years = Math.floor(total / 12);
-  const months = total % 12;
-  const parts: string[] = [];
-  if (years) parts.push(`${years} yr${years === 1 ? '' : 's'}`);
-  if (months) parts.push(`${months} mo`);
-  return parts.length ? parts.join(' ') : '< 1 mo';
-}
-
 export function yearsSince(yearMonth: string): number {
   return Math.floor(monthsBetween(yearMonth, null) / 12);
 }

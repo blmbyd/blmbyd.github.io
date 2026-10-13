@@ -1,5 +1,5 @@
 ---
-import { formatRange, formatDuration } from '../lib/cv';
+import { formatRange } from '../lib/cv';
 import type { Role } from '../lib/schema';
 
 interface Props {
@@ -13,7 +13,6 @@ const isCurrent = role.end === null;
 <article class="role" id={`role-${role.id}`}>
   <div class="when">
     <p class="range mono">{formatRange(role.start, role.end)}</p>
-    <p class="duration mono">{formatDuration(role.start, role.end)}</p>
     {isCurrent && <p class="now">Current</p>}
   </div>
 
@@ -104,11 +103,6 @@ const isCurrent = role.end === null;
   .range {
     color: var(--text);
     font-weight: 500;
-  }
-
-  .duration {
-    color: var(--text-subtle);
-    font-size: var(--step--2);
   }
 
   .now {
