@@ -10,7 +10,7 @@
   size: A4;
   /* Chromium honours this in preference to the `margin` option passed to
      page.pdf(), so this rule governs both browser printing and the generated
-     PDF. Tuned so the CV lands on four pages with real margins; the bottom
+     PDF. Tuned so the CV lands on three pages with real margins; the bottom
      margin still leaves room for the page-number footer. */
   margin: 12mm 13mm 11mm;
 }

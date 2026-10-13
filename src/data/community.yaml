@@ -4,13 +4,25 @@
 #   talk      - conference sessions, meetups, workshops, webinars
 #   video     - podcasts and recorded video
 #   writing   - articles and publications
-#   community - open source and forum participation
+#   community - open source, community and civic roles
 #
 # date may be null for ongoing work, which renders as "Ongoing" and is excluded
 # from the rolling twelve-month count in the stats strip.
 # lang marks a title that is not in English so screen readers pronounce it correctly.
 
 contributions:
+  - id: digital-safety-for-seniors
+    type: talk
+    date: 2026-10-05
+    title: Digital Safety for Seniors
+    venue: Leśne District Council, Bydgoszcz
+    url: null
+    summary: >-
+      Represented the Leśne District Council as part of Active Leśne 60+, a project funded by
+      the City of Bydgoszcz. Joined high school volunteers to help local seniors use essential
+      e-services and navigate online security threats, explaining topics such as two-factor
+      authentication and domain validation without technical jargon.
+
   - id: vibe-coding-podcast
     type: video
     date: 2026-07-22
@@ -143,3 +155,13 @@ contributions:
     summary: >-
       Active Champion in SoftwareOne's internal Cloud Community, helping colleagues across
       the organisation share practice and stay current.
+
+  - id: lesne-district-council-board
+    type: community
+    date: null
+    title: Board Member, Leśne District Council
+    venue: Leśne, Bydgoszcz
+    url: null
+    summary: >-
+      Serving on the board of the Leśne District Council, supporting local community
+      initiatives in Bydgoszcz.

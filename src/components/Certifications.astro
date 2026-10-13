@@ -11,7 +11,7 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
           {group.note && <p class="note">{group.note}</p>}
           <ul>
             {group.items.map((item) => (
-              <li class:list={['item', { expired: item.expired }]}>
+              <li class="item">
                 <span class="mark" aria-hidden="true" />
                 <span class="text">
                   {item.url ? (
@@ -24,7 +24,6 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
                   {item.issued && (
                     <span class="meta mono">
                       {formatYear(item.issued)}
-                      {item.expired && <span class="flag">expired</span>}
                     </span>
                   )}
                 </span>
@@ -108,10 +107,6 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     border-block-end: 8px solid var(--accent);
   }
 
-  .item.expired .mark {
-    border-block-end-color: var(--text-subtle);
-  }
-
   .text a {
     color: inherit;
     text-decoration: none;
@@ -127,15 +122,6 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     font-size: var(--step--2);
     color: var(--text-subtle);
     white-space: nowrap;
-  }
-
-  .flag {
-    margin-inline-start: 0.4em;
-    padding: 0.05em 0.45em;
-    border-radius: var(--radius-pill);
-    background: var(--amber-wash);
-    color: var(--amber);
-    font-size: var(--step--2);
   }
 
   .courses {
@@ -217,11 +203,6 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
 
     .mark {
       border-block-end-color: #333 !important;
-    }
-
-    .flag {
-      background: none;
-      border: 0.5pt solid var(--amber);
     }
 
     .verify {
