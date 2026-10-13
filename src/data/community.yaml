@@ -11,6 +11,17 @@
 # lang marks a title that is not in English so screen readers pronounce it correctly.
 
 contributions:
+  - id: digital-safety-for-seniors
+    type: talk
+    date: 2026-10-05
+    title: Digital Safety for Seniors
+    venue: Local community session, Bydgoszcz
+    url: null
+    summary: >-
+      Joined high school volunteers to help local seniors use essential e-services and
+      navigate online security threats, explaining topics such as two-factor authentication
+      and domain validation without technical jargon.
+
   - id: vibe-coding-podcast
     type: video
     date: 2026-07-22
