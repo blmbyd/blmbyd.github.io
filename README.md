@@ -83,7 +83,7 @@ Whole groups can be excluded the same way:
   items: [...]
 ```
 
-This is how the CV keeps a fuller narrative online while the PDF stays at four pages.
+This is how the CV keeps a fuller narrative online while the PDF stays at three pages.
 `npm run verify:pdf` fails the build if any screen-only copy leaks into the PDF.
 
 In `community.yaml`:

@@ -101,7 +101,7 @@ import { profile, featuredRoles, parallelRoles } from '../lib/cv';
         </div>
       </section>
 
-      <section class="section" aria-labelledby="interests-title">
+      <section class="section" aria-labelledby="interests-title" data-screen-only="true">
         <div class="wrap">
           <SectionHeading
             id="interests-title"
@@ -134,6 +134,18 @@ import { profile, featuredRoles, parallelRoles } from '../lib/cv';
   }
 
   @media print {
+    .section {
+      padding-block: 3pt;
+    }
+
+    :global(.heading) {
+      margin-block-end: 5pt;
+    }
+
+    .section[aria-labelledby='community-title'] :global(.lead) {
+      display: none;
+    }
+
     .parallel {
       margin-block-start: 8pt;
       padding-block-start: 6pt;
