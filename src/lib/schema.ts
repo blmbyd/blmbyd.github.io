@@ -167,7 +167,7 @@ export const interestsSchema = z.object({
     .array(
       z.object({
         id: z.string(),
-        icon: z.enum(['bike', 'waves', 'tree', 'wrench']),
+        icon: z.enum(['bike', 'waves', 'tree', 'wrench', 'family']),
         title: z.string(),
         body: z.string(),
       }),

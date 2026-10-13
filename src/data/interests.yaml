@@ -1,4 +1,4 @@
-# "Beyond the desk" — four cards, no more. Personality, not a hobby list.
+# "Beyond the desk" — personality, not a hobby list.
 
 interests:
   - id: mtb
@@ -8,19 +8,11 @@ interests:
       Trails and forest singletrack. The best debugging tool I own is two hours on a bike
       with no phone signal.
 
-  - id: diving
-    icon: waves
-    title: Scuba diving
+  - id: family
+    icon: family
+    title: Family
     body: >-
-      PADI Open Water Diver. Same discipline as running production: check your gear,
-      plan the dive, dive the plan, and always know your way back up.
-
-  - id: woodworking
-    icon: tree
-    title: Woodworking
-    body: >-
-      Hand tools and a workshop. I trained as a toolmaker before I wrote production code,
-      and I still think best with something physical in my hands.
+      Dad of three, with a dog, fish and ants at home.
 
   - id: fixing
     icon: wrench
