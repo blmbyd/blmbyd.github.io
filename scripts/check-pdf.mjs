@@ -25,6 +25,11 @@ const MIN_BOTTOM_MM = 4;
 const data = new Uint8Array(readFileSync(FILE));
 const doc = await getDocument({ data, useSystemFonts: false }).promise;
 
+if (doc.numPages > 3) {
+  console.error(`\n${FILE} has ${doc.numPages} pages; expected no more than 3.`);
+  process.exit(1);
+}
+
 const mm = (pt) => pt / PT_PER_MM;
 const failures = [];
 
