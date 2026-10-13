@@ -1,1 +1,1 @@
-Always preserve the complete CV content on the website; the print and PDF versions must fit within a maximum of 4 A4 pages. Mark content intended to appear only on the website as `screenOnly`, or use the appropriate data format that excludes it from print.
+Always preserve the complete CV content on the website; the print and PDF versions must fit within a maximum of 3 A4 pages. Mark content intended to appear only on the website as `screenOnly`, or use the appropriate data format that excludes it from print.
