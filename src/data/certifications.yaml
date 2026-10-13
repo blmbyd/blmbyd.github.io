@@ -1,9 +1,8 @@
 # Certifications grouped by issuer, plus the shorter courses.
 #
 # `badge` is a Credly badge id; the renderer turns it into a verification link.
-# `issued` and `expires` are optional. An entry whose `expires` date has passed
-# renders with an explicit expired marker rather than being quietly dropped, so
-# the list stays honest.
+# `issued` and `expires` are optional. Expiry dates are used for current-credential
+# statistics; credentials remain listed without an expired marker.
 
 groups:
   - label: GitHub certifications

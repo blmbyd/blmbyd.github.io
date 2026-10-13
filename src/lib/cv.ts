@@ -110,10 +110,7 @@ export function formatYear(date: string): string {
   return date.slice(0, 4);
 }
 
-/**
- * Groups decorated with a verification link and an expiry state, so an expired
- * credential is shown as expired rather than silently listed as current.
- */
+/** Groups decorated with a verification link and expiry state for current-credential stats. */
 export const certificationGroups = certifications.groups.map((group) => ({
   ...group,
   items: group.items.map((item) => ({
