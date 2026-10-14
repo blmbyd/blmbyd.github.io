@@ -40,7 +40,7 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     <ul>
       {certifications.courses.map((course) => <li>{course}</li>)}
     </ul>
-    <p class="verify">Linked credentials are verifiable on Credly.</p>
+    <p class="verify" data-screen-only="true">Linked credentials are verifiable on Credly.</p>
   </section>
 </div>
 
@@ -192,7 +192,11 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     }
 
     .courses {
-      padding: 5pt;
+      padding: 0;
+      background: none;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
     }
 
     .courses ul {
@@ -201,10 +205,6 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
 
     .mark {
       border-block-end-color: #333 !important;
-    }
-
-    .verify {
-      margin-block-start: 5pt;
     }
   }
 </style>
