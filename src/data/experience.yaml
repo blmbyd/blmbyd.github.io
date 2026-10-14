@@ -24,6 +24,8 @@ roles:
     groups:
       - label: Technical pre-sales & customer advisory
         items:
+          - Contributed to pre-sales for dozens of projects, from technical advisory to
+            drafting the technical sections of proposals and statements of work (SoWs).
           - Lead technical discovery with enterprise customers to surface the real
             constraints in their software delivery, not just the stated ones.
           - Translate business and engineering requirements into GitHub-based solution
@@ -36,6 +38,8 @@ roles:
             adoption — not just to signature.
       - label: Migrations to GitHub
         items:
+          - Migrated hundreds of repositories from Azure DevOps to GitHub for multiple
+            clients.
           - Lead enterprise migrations onto GitHub end to end, from assessment and
             migration design through cutover and post-migration adoption.
           - Size and de-risk the work up front through repository and pipeline inventory,
@@ -60,6 +64,7 @@ roles:
       # page only, since the Speaking & community section covers both in detail.
       - label: Leadership & community
         items:
+          - Global evangelist for Azure DevOps-to-GitHub migration within SoftwareOne.
           - Technical lead for the small project teams formed around individual customer
             engagements.
           - text: Speak at industry conferences, webinars, workshops and community
