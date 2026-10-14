@@ -44,9 +44,23 @@ jobs:
       - name: Check the PDF margins
         run: npm run verify:pdf
 
+      - name: Add branch suffix to the PDF filename
+        id: pdf-file
+        env:
+          PDF_BRANCH: ${{ inputs.branch != '' && inputs.branch || github.ref_name }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync, renameSync } from 'node:fs';
+
+          const branch = process.env.PDF_BRANCH.replace(/[^a-zA-Z0-9._-]+/g, '-');
+          const path = `dist/cv-${branch}.pdf`;
+          renameSync('dist/cv.pdf', path);
+          appendFileSync(process.env.GITHUB_OUTPUT, `path=${path}\n`);
+          NODE
+
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v7
         with:
-          name: cv-pdf
-          path: dist/cv.pdf
+          path: ${{ steps.pdf-file.outputs.path }}
+          archive: false
           if-no-files-found: error
