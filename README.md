@@ -31,6 +31,8 @@ the career elevation profile all come from the data above. They cannot drift.
 
 ## Local development
 
+Node.js 22.12.0 or newer is required.
+
 ```bash
 npm install
 npm run dev          # http://localhost:4321/eCV

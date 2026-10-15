@@ -9,6 +9,7 @@ export default defineConfig({
   site: 'https://blmbyd.github.io',
   base: '/eCV',
   trailingSlash: 'ignore',
+  compressHTML: true,
   integrations: [
     sitemap({
       // Drop the OG card (a build-time rendering target, not a page) and the
