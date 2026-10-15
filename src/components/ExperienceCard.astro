@@ -214,8 +214,7 @@ const isCurrent = role.end === null;
 
   @media print {
     .role {
-      /* Long roles may span a page break; their sub-blocks stay intact. */
-      break-inside: auto;
+      break-inside: avoid;
       padding-block: 4pt;
       display: block;
       background: none !important;
