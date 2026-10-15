@@ -204,7 +204,15 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     }
 
     .mark {
-      border-block-end-color: #333 !important;
+      width: auto;
+      height: auto;
+      margin-block-start: 0;
+      border: 0;
+    }
+
+    .mark::after {
+      content: '-';
+      color: #333;
     }
   }
 </style>
