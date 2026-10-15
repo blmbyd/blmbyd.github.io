@@ -40,7 +40,7 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     <ul>
       {certifications.courses.map((course) => <li>{course}</li>)}
     </ul>
-    <p class="verify">Linked credentials are verifiable on Credly.</p>
+    <p class="verify" data-screen-only="true">Linked credentials are verifiable on Credly.</p>
   </section>
 </div>
 
@@ -167,17 +167,15 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
 
   @media print {
     .layout {
-      grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
-      gap: 12pt;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 6pt;
     }
 
     .groups {
-      /* Chromium does not paginate multi-column containers gracefully, so the
-         print layout uses a plain grid instead. */
       columns: auto;
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 7pt 12pt;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 5pt;
       align-content: start;
     }
 
@@ -194,7 +192,11 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     }
 
     .courses {
-      padding: 5pt;
+      padding: 0;
+      background: none;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
     }
 
     .courses ul {
@@ -202,11 +204,15 @@ import { certifications, certificationGroups, formatYear } from '../lib/cv';
     }
 
     .mark {
-      border-block-end-color: #333 !important;
+      width: auto;
+      height: auto;
+      margin-block-start: 0;
+      border: 0;
     }
 
-    .verify {
-      margin-block-start: 5pt;
+    .mark::after {
+      content: '-';
+      color: #333;
     }
   }
 </style>
