@@ -24,6 +24,8 @@ roles:
     groups:
       - label: Technical pre-sales & customer advisory
         items:
+          - Help advance the GitHub–SoftwareOne partnership across EMEA, collaborating
+            closely with GitHub product teams and aligning with senior leadership.
           - Contributed to pre-sales for dozens of projects, from technical advisory to
             drafting the technical sections of proposals and statements of work (SoWs).
           - Lead technical discovery with enterprise customers to surface the real
@@ -32,6 +34,9 @@ roles:
             architectures.
           - Deliver executive briefings, technical workshops, proofs of concept and live
             product demonstrations.
+          - Co-developed a tailored GitHub Copilot training and enablement program for
+            a customer engineering organization, helping its engineers apply Copilot in
+            day-to-day development.
           - text: Partner with account teams to define adoption strategies and technical
               roadmaps.
           - Support customers all the way through evaluation, implementation and
