@@ -18,6 +18,7 @@ const isCurrent = role.end === null;
 
   <div class="what">
     <h3>{role.title}</h3>
+    <span class="print-role-separator" aria-hidden="true"> | </span>
     <p class="org">
       {
         role.orgUrl ? (
@@ -132,6 +133,10 @@ const isCurrent = role.end === null;
     color: inherit;
   }
 
+  .print-role-separator {
+    display: none;
+  }
+
   .dot {
     margin-inline: 0.35em;
     color: var(--text-subtle);
@@ -214,7 +219,7 @@ const isCurrent = role.end === null;
 
   @media print {
     .role {
-      break-inside: avoid;
+      break-inside: auto;
       padding-block: 4pt;
       display: block;
       background: none !important;
@@ -222,19 +227,20 @@ const isCurrent = role.end === null;
     }
 
     .when {
+      display: block;
+      margin-block-end: 1pt;
+    }
+
+    .what {
+      display: block;
+    }
+
+    .print-role-separator {
       display: inline;
     }
 
     .range {
       display: inline;
-    }
-
-    .range::after {
-      content: ' | ';
-    }
-
-    .what {
-      display: contents;
     }
 
     h3 {
@@ -243,7 +249,7 @@ const isCurrent = role.end === null;
 
     .org {
       display: inline;
-      margin-inline-start: 4pt;
+      margin-inline-start: 0;
     }
 
     .tech {
