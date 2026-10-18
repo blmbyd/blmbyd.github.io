@@ -3,8 +3,8 @@
 A static CV site published to GitHub Pages, with a matching print stylesheet and a
 build-generated PDF.
 
-**Live:** https://blmbyd.github.io/eCV
-**PDF:** https://blmbyd.github.io/eCV/cv.pdf
+**Live:** https://blmbyd.github.io
+**PDF:** https://blmbyd.github.io/cv.pdf
 
 ---
 
@@ -35,7 +35,7 @@ Node.js 22.12.0 or newer is required.
 
 ```bash
 npm install
-npm run dev          # http://localhost:4321/eCV
+npm run dev          # http://localhost:4321
 ```
 
 | Command | What it does |
@@ -153,8 +153,7 @@ attaches the rendered PDF as an artifact so changes can be reviewed before mergi
 ## Moving to a custom domain
 
 1. Create `public/CNAME` containing the domain, e.g. `cv.stuczynski.eu`.
-2. In `astro.config.mjs`, set `site` to `https://cv.stuczynski.eu` and delete the `base`
-   line.
+2. In `astro.config.mjs`, set `site` to `https://cv.stuczynski.eu`.
 3. Update the `Sitemap:` URL in `public/robots.txt`.
 4. Add a DNS `CNAME` record for `cv` pointing at `blmbyd.github.io`.
 5. In the repository's Pages settings, enter the domain and enable **Enforce HTTPS**.
