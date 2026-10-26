@@ -19,10 +19,35 @@ roles:
     scope: 10
     featured: true
     summary: >-
-      Technical pre-sales, solution architecture and migration delivery for enterprise
-      customers adopting GitHub, DevOps and AI-assisted development at scale.
+      Solution architecture, technical pre-sales and migration delivery for enterprise
+      customers modernising software delivery on GitHub Enterprise, GitHub Actions and
+      GitHub Copilot.
     groups:
-      - label: Technical pre-sales & customer advisory
+      - label: GitHub platform & AI transformation
+        items:
+          - Design governance, security and operating models for enterprise-scale GitHub
+            environments.
+          - Advise organisations on GitHub Enterprise and GitHub Copilot adoption
+            strategy.
+          - Run ROI and value-realisation assessments for AI-assisted software
+            development.
+          - Guide modernisation programmes spanning platform engineering, DevOps and AI
+            engineering practices.
+      - label: Migration architecture & delivery
+        items:
+          - Migrated hundreds of repositories from various source systems to GitHub for multiple
+            clients.
+          - Lead enterprise migrations onto GitHub end to end, from assessment and
+            migration architecture through cutover and post-migration adoption.
+          - Size and de-risk the work up front through repository and pipeline inventory,
+            dependency mapping and phased cutover planning.
+          - Rebuild automation on GitHub Actions as part of the move, rather than lifting
+            existing pipelines across unchanged.
+          - Preserve history, permissions and traceability so teams keep delivering
+            through cutover instead of pausing around it.
+          - Run pilot waves and enablement so teams land on the new platform productive
+            rather than stranded on it.
+      - label: Pre-sales, partnership & customer advisory
         items:
           - Help advance the GitHub–SoftwareOne partnership across EMEA, collaborating
             closely with GitHub product teams and aligning with senior leadership.
@@ -34,49 +59,25 @@ roles:
             architectures.
           - Deliver executive briefings, technical workshops, proofs of concept and live
             product demonstrations.
-          - Co-developed a tailored GitHub Copilot training and enablement program for
-            a customer engineering organization, helping its engineers apply Copilot in
-            day-to-day development.
           - text: Partner with account teams to define adoption strategies and technical
               roadmaps.
           - Support customers all the way through evaluation, implementation and
             adoption — not just to signature.
-      - label: Migrations to GitHub
-        items:
-          - Migrated hundreds of repositories from various source systems to GitHub for multiple
-            clients.
-          - Lead enterprise migrations onto GitHub end to end, from assessment and
-            migration design through cutover and post-migration adoption.
-          - Size and de-risk the work up front through repository and pipeline inventory,
-            dependency mapping and phased cutover planning.
-          - Rebuild automation on GitHub Actions as part of the move, rather than lifting
-            existing pipelines across unchanged.
-          - Preserve history, permissions and traceability so teams keep delivering
-            through cutover instead of pausing around it.
-          - Run pilot waves and enablement so teams land on the new platform productive
-            rather than stranded on it.
-      - label: GitHub & AI transformation
-        items:
-          - Advise organisations on GitHub Enterprise and GitHub Copilot adoption
-            strategy.
-          - Run ROI and value-realisation assessments for AI-assisted software
-            development.
-          - Design governance, security and operating models for enterprise-scale GitHub
-            environments.
-          - text: Guide modernisation programmes spanning platform engineering, DevOps
-              and AI engineering practices.
-      # The technical lead line prints. The speaking and champion lines stay on the
-      # page only, since the Speaking & community section covers both in detail.
-      - label: Leadership & community
+      # The speaking line stays on the page only, since the Speaking & community
+      # section covers it in detail.
+      - label: Technical leadership & enablement
         items:
           - Served as a global evangelist during SoftwareOne's internal migration from
             Azure DevOps to GitHub.
           - Technical lead for the small project teams formed around individual customer
             engagements.
+          - Co-developed a tailored GitHub Copilot training and enablement program for
+            a customer engineering organization, helping its engineers apply Copilot in
+            day-to-day development.
+          - Internal GitHub Champion and Cloud Community Champion, contributing to
+            enablement initiatives.
           - text: Speak at industry conferences, webinars, workshops and community
               events.
-          - text: Internal GitHub Champion and Cloud Community Champion, contributing to
-              enablement initiatives.
 
   - id: self-employed
     title: Developer / DevOps
@@ -229,6 +230,8 @@ roles:
             cause.
           - Improved application code where it touched infrastructure, and vice versa.
           - Owned pipelines and CI deployment in Azure DevOps.
+          - Worked across AWS and Windows Server infrastructure, automating operations
+            with PowerShell.
           - Worked with the Security Engineer on GDPR and PCI compliance.
     tech:
       - label: Operations
