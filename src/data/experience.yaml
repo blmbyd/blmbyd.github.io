@@ -31,10 +31,8 @@ roles:
             strategy.
           - Run ROI and value-realisation assessments for AI-assisted software
             development.
-          - Guide modernisation programmes spanning platform engineering, DevOps and AI
-            engineering practices.
           - Hands-on with GitHub Copilot modernisation agents — trained on them, evaluated
-            them and applied them on several occasions.
+            them.
       - label: Migration architecture & delivery
         items:
           - Migrated hundreds of repositories to GitHub for multiple clients, from source
