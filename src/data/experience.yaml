@@ -18,10 +18,13 @@ roles:
     track: main
     scope: 10
     featured: true
+    # Award wording follows SoftwareOne's 28 Oct 2026 press release: Global Channel
+    # Sales winner in the 2026 GitHub Services and Channel Partner of the Year Awards.
     summary: >-
       Solution architecture, technical pre-sales and migration delivery for enterprise
       customers modernising software delivery on GitHub Enterprise, GitHub Actions and
-      GitHub Copilot.
+      GitHub Copilot. Part of the core team that built SoftwareOne's GitHub partnership,
+      which won GitHub's 2026 Global Channel Sales Partner of the Year award.
     groups:
       - label: GitHub platform & AI transformation
         items:
@@ -75,6 +78,8 @@ roles:
         items:
           - Served as a global evangelist during SoftwareOne's internal migration from
             Azure DevOps to GitHub.
+          - Tech Lead representing SoftwareOne's GitHub team in the GitHub Partners
+            Community.
           - Technical lead for the small project teams formed around individual customer
             engagements.
           - Co-developed a tailored GitHub Copilot training and enablement program for
