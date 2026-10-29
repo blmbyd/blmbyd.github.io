@@ -9,15 +9,15 @@ headline: GitHub Solutions Architect & Principal DevOps Engineer
 
 roles:
   - GitHub Solutions Architect
-  - Principal DevOps Engineer
   - Technical Pre-Sales
+  - Principal DevOps Engineer
   - DevEx Advisor
   - Public Speaker
 
 tagline: >-
-  I help enterprise engineering organisations ship software faster, safer and with
-  far less friction — through GitHub platform transformation, DevSecOps and AI-assisted
-  engineering.
+  I help engineering organisations get more value from GitHub — shipping software
+  faster, safer and with far less friction through DevOps, DevSecOps and AI-assisted
+  development.
 
 # Public page: city only, no street address, no phone, no date of birth.
 location:
@@ -44,25 +44,26 @@ summary:
   # A plain string prints. An entry written as "text: ..." stays on the web page
   # but is left out of the printed CV and the PDF.
   - >-
-    I help enterprise organisations modernise software delivery on GitHub — GitHub
-    Enterprise, GitHub Actions, GitHub Advanced Security and GitHub Copilot — designing
-    the solution architecture, governance, security and operating models that let DevOps
-    modernisation, developer productivity and AI-assisted engineering scale.
+    My work sits where technology, business and customer success overlap: consultative
+    technical pre-sales, solution architecture and technical leadership for organisations
+    adopting GitHub. Working alongside account teams, I take customers from executive
+    briefings, technical discovery and live product demonstrations through solution
+    shaping, implementation, adoption and measurable outcomes.
+  - >-
+    I help organisations modernise software delivery on GitHub — GitHub Enterprise,
+    GitHub Actions, GitHub Advanced Security and GitHub Copilot — translating business and
+    engineering requirements into the solution architecture, governance, security and
+    operating models that let DevOps, DevSecOps and AI-assisted development scale.
   - >-
     A large part of that is migration architecture and delivery. I lead enterprise moves
     onto GitHub from Azure DevOps, GitLab and Bitbucket end to end — assessment,
     migration design, pilot waves, cutover and the adoption work afterwards that decides
     whether the move actually holds.
   - >-
-    My work sits where technology, business and customer success overlap: technical
-    leadership, solution architecture, consultative pre-sales and helping build GitHub
-    Copilot service offerings, guiding organisations from executive briefings, technical
-    discovery and assessments through solution shaping, implementation, adoption and
-    measurable outcomes.
-  - >-
-    I also build enablement that outlasts a single engagement — training programmes,
-    hands-on workshop repositories and internal champion work that help colleagues and
-    customer teams apply GitHub and GitHub Copilot practices on their own.
+    I also build enablement that outlasts a single engagement — customer training
+    programmes and workshops, hands-on workshop repositories and internal champion work
+    that help customer teams and colleagues apply GitHub and GitHub Copilot practices on
+    their own.
   - text: >-
       Most of my time goes to engineering leaders, architects and platform teams —
       understanding what actually slows them down, designing practical transformation

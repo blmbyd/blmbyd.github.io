@@ -21,74 +21,76 @@ roles:
     # Award wording follows SoftwareOne's 28 Oct 2026 press release: Global Channel
     # Sales winner in the 2026 GitHub Services and Channel Partner of the Year Awards.
     summary: >-
-      Solution architecture, technical pre-sales and migration delivery for enterprise
-      customers modernising software delivery on GitHub Enterprise, GitHub Actions and
+      Technical pre-sales, solution architecture and migration delivery for enterprise
+      customers adopting GitHub Enterprise, GitHub Actions, GitHub Advanced Security and
       GitHub Copilot. Part of the core team that built SoftwareOne's GitHub partnership,
       which won GitHub's 2026 Global Channel Sales Partner of the Year award.
     groups:
-      - label: GitHub platform & AI transformation
+      - label: Technical pre-sales & customer advisory
         items:
-          - Design governance, security and operating models for enterprise-scale GitHub
-            environments.
+          - Contributed to pre-sales for dozens of projects, from technical advisory to
+            drafting the technical sections of proposals and statements of work (SoWs).
+          - Partner with account teams to define adoption strategies and technical
+            roadmaps.
+          - Lead technical discovery with enterprise customers to surface the real
+            constraints in their software delivery, not just the stated ones.
+          - Map business and engineering requirements to GitHub capabilities and
+            GitHub-based solution architectures.
+          - Deliver executive briefings, technical workshops, proofs of concept and live
+            GitHub product demonstrations.
+          - Support customers all the way through evaluation, implementation and
+            adoption — not just to signature.
+          - Help advance the GitHub–SoftwareOne partnership across EMEA, collaborating
+            closely with GitHub product teams and aligning with senior leadership.
+          - Helped build the GitHub Copilot Fundamentals and GitHub Copilot Advanced
+            service offerings.
+      - label: GitHub platform & AI adoption
+        items:
           - Advise organisations on GitHub Enterprise and GitHub Copilot adoption
             strategy.
           - Run ROI and value-realisation assessments for AI-assisted software
             development.
+          - Design governance, security and operating models for enterprise-scale GitHub
+            environments.
           - Hands-on with GitHub Copilot modernisation agents — trained on them, evaluated
             them.
+      # The speaking line stays on the page only, since the Speaking & community
+      # section covers it in detail.
+      - label: Enablement & technical leadership
+        items:
+          - Co-developed a tailored GitHub Copilot training and enablement program for
+            a customer engineering organization, helping its engineers apply Copilot in
+            day-to-day development.
+          - Technical lead for the small project teams formed around individual customer
+            engagements.
+          - Served as a global evangelist during SoftwareOne's internal migration from
+            Azure DevOps to GitHub.
+          - Tech Lead representing SoftwareOne's GitHub team in the GitHub Partners
+            Community.
+          - Internal GitHub Champion and Cloud Community Champion, contributing to
+            enablement initiatives.
+          - text: Speak at industry conferences, webinars, workshops and community
+              events.
+      # The sizing and history-preservation lines stay on the page only, keeping the
+      # printed role focused on customer-facing work.
       - label: Migration architecture & delivery
         items:
           - Migrated hundreds of repositories to GitHub for multiple clients, from source
             systems including Azure DevOps, GitLab and Bitbucket.
           - Lead enterprise migrations onto GitHub end to end, from assessment and
             migration architecture through cutover and post-migration adoption.
-          - Size and de-risk the work up front through repository and pipeline inventory,
-            dependency mapping and phased cutover planning.
+          - text: Size and de-risk the work up front through repository and pipeline
+              inventory, dependency mapping and phased cutover planning.
           - Rebuild automation on GitHub Actions as part of the move, rather than lifting
             existing pipelines across unchanged.
           - Automate migration and platform tasks with Python, Bash, GitHub Apps and
             webhooks.
           - Owned the Jenkins Configuration as Code (JCasC) deployment on Azure in a
             migration of Jenkins from on-premises to the cloud.
-          - Preserve history, permissions and traceability so teams keep delivering
-            through cutover instead of pausing around it.
+          - text: Preserve history, permissions and traceability so teams keep delivering
+              through cutover instead of pausing around it.
           - Run pilot waves and enablement so teams land on the new platform productive
             rather than stranded on it.
-      - label: Offerings, pre-sales & customer advisory
-        items:
-          - Help advance the GitHub–SoftwareOne partnership across EMEA, collaborating
-            closely with GitHub product teams and aligning with senior leadership.
-          - Helped build the GitHub Copilot Fundamentals and GitHub Copilot Advanced
-            service offerings.
-          - Contributed to pre-sales for dozens of projects, from technical advisory to
-            drafting the technical sections of proposals and statements of work (SoWs).
-          - Lead technical discovery with enterprise customers to surface the real
-            constraints in their software delivery, not just the stated ones.
-          - Translate business and engineering requirements into GitHub-based solution
-            architectures.
-          - Deliver executive briefings, technical workshops, proofs of concept and live
-            product demonstrations.
-          - text: Partner with account teams to define adoption strategies and technical
-              roadmaps.
-          - Support customers all the way through evaluation, implementation and
-            adoption — not just to signature.
-      # The speaking line stays on the page only, since the Speaking & community
-      # section covers it in detail.
-      - label: Technical leadership & enablement
-        items:
-          - Served as a global evangelist during SoftwareOne's internal migration from
-            Azure DevOps to GitHub.
-          - Tech Lead representing SoftwareOne's GitHub team in the GitHub Partners
-            Community.
-          - Technical lead for the small project teams formed around individual customer
-            engagements.
-          - Co-developed a tailored GitHub Copilot training and enablement program for
-            a customer engineering organization, helping its engineers apply Copilot in
-            day-to-day development.
-          - Internal GitHub Champion and Cloud Community Champion, contributing to
-            enablement initiatives.
-          - text: Speak at industry conferences, webinars, workshops and community
-              events.
     tech:
       - label: GitHub
         items:
